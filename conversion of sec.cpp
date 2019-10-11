@@ -3,7 +3,7 @@
 int main()
 {
 	int s,m,h,s1;
-	printf("enter the no of seconds\n");
+	printf("enter the total no of seconds\n");
 	scanf("%d",&s);
 	h=s/3600;
 	m=(s%3600)/60;
