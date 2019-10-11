@@ -15,7 +15,7 @@ int main()
 	printf("%d\n",sum);
 	if (sum==num)
 	{
-	printf("armstrong no\n");
+	printf(" is armstrong no\n");
 }
 	else
 	{
