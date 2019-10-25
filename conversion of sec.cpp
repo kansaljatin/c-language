@@ -8,6 +8,6 @@ int main()
 	h=s/3600;
 	m=(s%3600)/60;
 	s1=(s%3600)%60;
-	printf("hour:%d min:%d sec:%d",h,m,s1);
+	printf("hour:%d\nmin:%d\nsec:%d",h,m,s1);
 	return 0;
 }
