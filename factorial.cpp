@@ -2,12 +2,13 @@
 #include<stdio.h>
 int main()
 {
-	int i,n,fac;
+	int i=1,n,fac;
 	scanf("%d",&n);
 	fac=1;
-	for(i=1;i<=n;i++)
+	while(i<=n)
 	{
 		fac=fac*i;
+		i++;
 	}
 	printf("%d\n",fac);
 	return 0;
