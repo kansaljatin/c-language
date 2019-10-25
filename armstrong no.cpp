@@ -1,5 +1,6 @@
 #include<conio.h>
 #include<stdio.h>
+#include<math.h>
 int main()
 {
 	int rem,sum,n,num;
@@ -9,7 +10,7 @@ int main()
 	while(n!=0)
 	{
 		rem=n%10;
-		sum=sum+(rem*rem*rem);
+		sum=sum+pow(rem,3);
 		n=n/10;
 	}
 	printf("%d\n",sum);
@@ -19,7 +20,7 @@ int main()
 }
 	else
 	{
-	printf("not\n");
+	printf("not armstrong\n");
 }
 	return 0;
 }
