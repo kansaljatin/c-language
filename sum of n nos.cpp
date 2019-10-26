@@ -5,10 +5,23 @@ int main()
 	int i,n,sum;
 	scanf("%d",&n);
 	sum=0;
-	for(i=1;i<=n;i++)
-	{
-		sum=sum+i;
+	if(n>0)
+	{	
+		for(i=1;i<=n;i++)
+		{
+			sum=sum+i;
+		}
+			printf("%d\n",sum);
 	}
-	printf("%d\n",sum);
-	return 0;
+	else if(n==0)
+	{
+		printf("sum is zero" );
+	}
+	else
+	{
+	    printf("plz enter the positive number");
+	}
+	
+	
+return 0;
 }
